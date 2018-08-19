@@ -22,8 +22,7 @@ package {
             l.dataFormat = URLLoaderDataFormat.TEXT;
             l.addEventListener(Event.COMPLETE, onLoadChina);
             //l.load(new URLRequest("China.json"));
-            //湖北省,内蒙古自治区,山东省,辽宁省,上海市,陕西省,贵州省,西藏自治区,重庆市,安徽省,湖南省,海南省,福建省,澳门特别行政区,江苏省,宁夏回族自治区,江西省,青海省,广西壮族自治区,浙江省,香港特别行政区,山西省,台湾省,河北省,甘肃省,北京市,云南省,天津市,四川省,吉林省
-            this.loadSheng("湖北省")
+            this.loadSheng("福建省")
         }
 
         private function onLoadChina(event:Event):void {
